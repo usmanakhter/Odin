@@ -20,7 +20,7 @@ prime(600851475143);
 
 
 
-//cleaner version with less variables:
+//cleaner version:
 var prime = function(input) {
     divisor=2;
     while (divisor<input) {

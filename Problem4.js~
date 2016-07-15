@@ -3,7 +3,7 @@ palindromes=[];
 //fxn to check if palindrome
 var palindrome = function (input) {
     if (multipleString.length===5) {
-        if (input[0]===input[4] && input[1]===input[3]) {
+        if (multipleString[0]===multiple[4] && multiple[1]===multiple[3]) {
             return true;
         }
         else {
@@ -11,7 +11,7 @@ var palindrome = function (input) {
         }
     }
     else if (multipleString.length===6) {
-    	if (input[0]===input[5] && input[1]===input[4] && input[2]===input[3]) {
+    	if (multipleString[0]===multipleString[5] && multipleString[1]===multipleString[4] && multipleString[2]===multipleString[3]) {
             return true;
         }
         else {
