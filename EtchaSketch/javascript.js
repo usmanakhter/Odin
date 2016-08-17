@@ -60,6 +60,7 @@ var randomHover=function() {
 };//random hover effect
 
 
+
 $button1.click(function() {
     $(".squareStyle").remove();
     $n = prompt("How many rows in your grid? (Type 16 for a 16x16 grid)"); //# of rows in grid
@@ -72,6 +73,7 @@ $button2.click(function() {
     newSquares();
     randomHover();
 }); //make button2 bind to randomSquares fxn
+
 
 $button3.click(function() {
     $(".squareStyle").remove();
