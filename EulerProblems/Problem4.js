@@ -35,3 +35,4 @@ for (i=999; i>=900; i--){
 }
 var max = Math.max.apply(null, palindromes);
 console.log(max);
+ 

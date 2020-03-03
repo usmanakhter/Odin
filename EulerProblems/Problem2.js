@@ -16,3 +16,4 @@ while (k<4000001) {
     }
 }
 console.log(sum+2);
+ 

@@ -17,7 +17,7 @@ var prime = function(input) {
     
 };
 prime(600851475143);
-
+ 
 
 
 //cleaner version:
